@@ -57,7 +57,7 @@ The main purpose of this project is to simulate a production-ready **analytics e
 
 ```bash
 git clone https://github.com/redpandasdata/aws_saas_analytics.git
-cd saas-analytics-pipeline
+cd aws_saas_analytics
 ```
 
 2. Install dependencies (local Python)
