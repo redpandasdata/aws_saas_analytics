@@ -56,7 +56,7 @@ The main purpose of this project is to simulate a production-ready **analytics e
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/redpandasdata/saas-analytics-pipeline.git
+git clone https://github.com/redpandasdata/aws_saas_analytics.git
 cd saas-analytics-pipeline
 ```
 
