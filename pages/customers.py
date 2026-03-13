@@ -110,7 +110,7 @@ fig_ltv = px.histogram(
 fig_ltv.add_vline(
     x=customers["ltv"].mean(),
     line_dash="dash",
-    annotation_text=f"Moyenne LTV : {customers["ltv"].mean().round()}"
+    annotation_text=f"Moyenne LTV : {customers['ltv'].mean().round()}"
 )
 st.plotly_chart(fig_ltv, use_container_width=True)
 st.info("**Customer Lifetime Value (LTV):** Revenu total généré par un client pendant toute la durée de sa relation avec l'entreprise. Par exemple : 2 clients ont généré un revenu total compris entre 700 et 750 € sur toute leur durée de vie." )

@@ -1,13 +1,13 @@
 # Streamlit
-streamlit==1.27.0
+streamlit
 
 # Pandas
-pandas==2.1.1
+pandas==2.1.0
 
 # Plotly et Matplotlib
 plotly==5.17.0
 matplotlib==3.8.1
-seaborn==0.12.3
+seaborn==0.12.2
 
 # Google Cloud BigQuery
 google-cloud-bigquery==3.11.0
@@ -16,6 +16,9 @@ db-dtypes
 # dates et fuseaux horaires
 python-dateutil==2.8.2
 
+# DBT
+dbt-core==1.6.2
+dbt-bigquery==1.6.2
+
 # DBT API ou scripts Python
 requests==2.31.0
-

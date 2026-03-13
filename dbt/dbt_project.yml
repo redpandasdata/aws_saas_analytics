@@ -1,0 +1,9 @@
+name: saas_analytics
+version: 1.0
+profile: saas_analytics
+
+model-paths: ["models"]
+
+models:
+  saas_analytics:
+    +materialized: table
