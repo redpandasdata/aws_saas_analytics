@@ -33,10 +33,12 @@ The main purpose of this project is to simulate a production-ready **analytics e
 
 - **Python 3.11**
 - **Pandas, NumPy** – for data manipulation
+- **API Hubspot** for simulating extracting data from CRM
+- **BigQuery** - To stock dataset and medallion modele from DBT transformation
+- **DBT** - For extract from BigQuery, Transform with SQL, Load in BigQuery
 - **Streamlit** – for interactive dashboards
 - **Docker** – containerization
 - **Git/GitHub** – version control
-- Optionally, **PostgreSQL / API integration** for real SaaS data ingestion
 
 ---
 
