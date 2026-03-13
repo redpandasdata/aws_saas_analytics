@@ -12,6 +12,8 @@ The main purpose of this project is to simulate a production-ready **analytics e
 - Data visualization and dashboards with Streamlit
 - Containerization for deployment with Docker
 
+![lineage_dbt](streamlit_screenshot.png)
+
 ---
 
 ## Features
@@ -79,15 +81,56 @@ Open your browser at http://localhost:8501￼ to access the dashboard.
 ### Project structure
 ```
 Saas_analytics_pipeline_aws/
-│
-├─ dbt/                # Python scripts for ETL and data processing
-├─ pages/                # Streamlit app pages
-│  ├─ Home.py
-│  ├─ Customers.py
-│  └─ ...
-├─ requirements.txt    # Python dependencies
-├─ Dockerfile          # Docker configuration
-└─ README.md
+├─ AWS-Logo.png
+├─ README.md
+├─ app.py
+├─ data.ipynb
+├─ │   dbt_project.yml
+├─ │   │   dbt.log
+├─ │   │   .DS_Store
+├─ │   │   │   int_customer_metrics.sql
+├─ │   │   │   int_product_metrics.sql
+├─ │   │   │   int_time_metrics.sql
+├─ │   │   │   mart_customer_summary.sql
+├─ │   │   │   mart_geo_summary.sql
+├─ │   │   │   mart_product_summary.sql
+├─ │   │   │   mart_sales_summary.sql
+├─ │   │   schema.yml
+├─ │   │   │   stg_sales.sql
+├─ │   │   catalog.json
+├─ │   │   │   │   │   │   int_customer_metrics.sql
+├─ │   │   │   │   │   │   int_product_metrics.sql
+├─ │   │   │   │   │   │   int_time_metrics.sql
+├─ │   │   │   │   │   │   mart_customer_metrics.sql
+├─ │   │   │   │   │   │   mart_customer_summary.sql
+├─ │   │   │   │   │   │   mart_geo_summary.sql
+├─ │   │   │   │   │   │   mart_product_summary.sql
+├─ │   │   │   │   │   │   mart_sales_summary.sql
+├─ │   │   │   │   │   │   not_null_mart_sales_summary_month.sql
+├─ │   │   │   │   │   │   not_null_mart_sales_summary_revenue_month.sql
+├─ │   │   │   │   │   │   not_null_mart_sales_summary_year.sql
+├─ │   │   │   │   │   │   stg_sales.sql
+├─ │   │   graph.gpickle
+├─ │   │   graph_summary.json
+├─ │   │   index.html
+├─ │   │   manifest.json
+├─ │   │   partial_parse.msgpack
+├─ │   │   run_results.json
+├─ │   │   semantic_manifest.json
+├─ docker-compose.yml
+├─ dockerfile
+├─ │   main.py
+├─ │   requirements.txt
+├─ lineage_dbt.png
+├─ pages/
+├─ │   customers.py
+├─ │   geo.py
+├─ │   products.py
+├─ requirements.txt
+├─ utils/
+├─ │   bigquery.py
+├─ │   navigation.py
+├─ │   theme.py
 ```
 ![lineage_dbt](lineage_dbt.png)
 
