@@ -21,7 +21,7 @@ st.logo(image="AWS-Logo.png", size='large')
 # Chargement du thème
 load_css()
 
-st.sidebar.title("Navigation")
+# Chargement de la navigation
 show_navigation()
 
 # Import dataset
