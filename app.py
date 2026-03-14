@@ -1,6 +1,7 @@
 import streamlit as st
 
 st.set_page_config(page_title='Saas Analytics Dashboard', layout="wide")
+st.navigation([])  # désactive menu automatique
 
 from utils.theme import load_css, kpi_card
 import pandas as pd
