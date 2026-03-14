@@ -73,25 +73,25 @@ col1, col2, col3, col4 = st.columns(4)
 
 with col1:
     kpi_card(
-        "💰 Total Revenue",
+        "💰 Revenu total",
         f"{total_revenue:,.0f} €"
     )
 
 with col2:
     kpi_card(
-        "📦 Orders",
+        "📦 Commandes",
         f"{total_orders:,}"
     )
 
 with col3:
     kpi_card(
-        "👥 Active Customers",
+        "👥 Clients Actifs",
         f"{active_customers:,}"
     )
 
 with col4:
     kpi_card(
-        "🛒 Average Order",
+        "🛒 Commande moyenne",
         f"{avg_order_value:,.0f} €"
     )
 

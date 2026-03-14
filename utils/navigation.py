@@ -9,4 +9,4 @@ def show_navigation():
         st.page_link("pages/products.py", label="Produits", icon="⚙️")
 
     st.sidebar.markdown("---")
-    st.sidebar.caption("Developped by Samuel P.")
+    st.sidebar.caption("Developpé par Samuel P.")

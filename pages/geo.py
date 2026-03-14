@@ -11,7 +11,7 @@ load_css()
 # -----------------------------
 # Page config
 # -----------------------------
-st.title("Geo Analytics")
+st.title("Géo-analyses")
 st.logo(image="AWS-Logo.png", size='large')
 
 st.sidebar.title("Navigation")

@@ -12,7 +12,7 @@ load_css()
 # -----------------------------
 # Page config
 # -----------------------------
-st.title("Product Analytics")
+st.title("Analyse produits")
 st.logo(image="AWS-Logo.png", size='large')
 
 st.sidebar.title("Navigation")
